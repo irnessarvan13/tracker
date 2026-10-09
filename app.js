@@ -17,11 +17,7 @@ import { getRepo, readFile, writeFile } from './github.js';
 import { renderMarkdown, toggleTask } from './markdown.js';
 import { todayISO, isISODate, fromISO, formatShort } from './dates.js';
 import { STATUS, NEXT_STATUS, CATS } from './constants.js';
-import { esc, ICONS } from './views/ui.js';
-import { renderHome } from './views/home.js';
-import { renderBoard } from './views/board.js';
-import { renderCalendar } from './views/calendar.js';
-import { renderNotes } from './views/notes.js';
+
 
 const VIEWS = { home: renderHome, board: renderBoard, calendar: renderCalendar, notes: renderNotes };
 const TABS = [['home', 'Home'], ['board', 'Board'], ['calendar', 'Calendar'], ['notes', 'Notes']];
