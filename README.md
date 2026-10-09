@@ -2,7 +2,7 @@
 
 My personal tracker: a brain-dump inbox, tickets, a calendar of upcoming dates, and notes, all in one page.
 
-This repo is public, but **it holds no data**, only the page. Everything I write lives in a separate **private** repo (`tracker-data/data.json`). The page reads and saves that file through the GitHub API using a fine-grained token that only has access to that one repo. Without the token, the page shows a connect screen and nothing else.
+This repo is public, but **it holds no data**, only the page. Everything I write lives in a separate **private** repo (`tracker-data`). The page reads and saves that file through the GitHub API using a fine-grained token that only has access to that one repo. Without the token, the page shows a connect screen and nothing else.
 
 ## How it works
 
