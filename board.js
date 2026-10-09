@@ -2,7 +2,7 @@
 // Click a status to move a ticket along. Click a title to open it and edit
 // everything: title, summary, status, due date, section, steps, and notes.
 import { esc, statusButton, dueChip, ICONS } from './ui.js';
-import { STATUS } from '../constants.js';
+import { STATUS } from './constants.js';
 
 export function renderBoard(ctx) {
   const { state, ui } = ctx;
