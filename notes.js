@@ -1,7 +1,7 @@
 // notes.js — the Notes screen: pages grouped in folders, like a small Notion.
 // Left: search + list of pages. Right: the open page (read it, or Edit to write).
 import { esc, allTickets } from './ui.js';
-import { formatMonthDay } from '../dates.js';
+import { formatMonthDay } from './dates.js';
 
 export function renderNotes(ctx) {
   const page = ctx.state.pages.find((p) => p.id === ctx.ui.pageId) || null;
