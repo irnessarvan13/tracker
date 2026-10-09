@@ -1,8 +1,8 @@
 // ui.js — small building blocks every screen shares.
-import { STATUS, CATS } from '../constants.js';
-import { daysBetween, formatMonthDay, relative } from '../dates.js';
-export { escapeHTML as esc } from '../markdown.js';
-import { escapeHTML as esc } from '../markdown.js';
+import { STATUS, CATS } from './constants.js';
+import { daysBetween, formatMonthDay, relative } from './dates.js';
+export { escapeHTML as esc } from './markdown.js';
+import { escapeHTML as esc } from './markdown.js';
 
 // The colored status pill on a ticket. Clicking it moves the ticket along.
 export function statusButton(t) {
