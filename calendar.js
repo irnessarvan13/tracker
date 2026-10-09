@@ -1,8 +1,8 @@
 // calendar.js — the Calendar screen: a month grid plus the selected day's list.
 // Solid chips are dates you added; dashed chips are tickets with a due date.
 import { esc, catOptions, datedThings } from './ui.js';
-import { CATS, STATUS } from '../constants.js';
-import { formatLong, formatTime, monthGrid, monthTitle, relative } from '../dates.js';
+import { CATS, STATUS } from './constants.js';
+import { formatLong, formatTime, monthGrid, monthTitle, relative } from './dates.js';
 
 const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
