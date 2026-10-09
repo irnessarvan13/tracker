@@ -1,7 +1,7 @@
 // home.js — the Home screen: brain dump, what's coming up, what's in progress.
 import { esc, catOptions, datedThings, allTickets } from './ui.js';
-import { CATS, STATUS } from '../constants.js';
-import { daysBetween, formatLong, formatShort, formatTime, formatStamp, relative } from '../dates.js';
+import { CATS, STATUS } from ./constants.js';
+import { daysBetween, formatLong, formatShort, formatTime, formatStamp, relative } from './dates.js';
 
 // Groups for "Coming up". n = how many days from today. First match wins.
 const GROUPS = [
